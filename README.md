@@ -12,7 +12,7 @@
 ## About
 Backend API for [networking service concept](https://github.com/avtorsky/yatube) developed under the [Practicum](https://practicum.yandex.com/) online bootcamp with the following stack::
 * Python 3.7.9
-* Django Rest Framework 3.12.4
+* Django REST framework 3.12.4
 * SQLite 3.32.3
 
 ## Changelog
