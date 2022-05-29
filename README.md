@@ -16,6 +16,9 @@ Backend API for [networking service concept](https://github.com/avtorsky/yatube)
 * SQLite 3.32.3
 
 ## Changelog
+Release 20220529:
+* fix(./yatube_api/api/urls.py): router versioning fix
+
 Release 20220528:
 * feat(./yatube_api/): serializers, views, urlpatterns && routing setup
 * docs(./README.md): .env setup && API specs complete
@@ -192,8 +195,7 @@ Response:
         "title": "group title",
         "slug": "slug",
         "description": "hello, friend"
-    },
-    ...
+    }
 ]
 ```
 
